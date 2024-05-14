@@ -18,21 +18,21 @@ nav_order: 1
 1. (https://developers.redhat.com/developer-sandbox) にアクセスして「Start your sandbox for free」ボタンをクリックします。未ログインの場合にはログイン画面が表示されるのでログインします。
 
 {: .xs}
-![](../assets/rhd_start_sandbox.png)
-![](../assets/rhd_login.png)
+![](../../assets/rhd_start_sandbox.png)
+![](../../assets/rhd_login.png)
 
 2. Sandboxの一覧から Red Hat OpenShift AI の「Launch」ボタンをクリックします。
 
-![](../assets/rhd_select_sandbox.png)
+![](../../assets/rhd_select_sandbox.png)
 
 3. OpenShift AIのログイン画面が表示されたら「Log in with OpenShift」ボタンをクリックし、次の画面で「Dev Sandbox」ボタンをクリックします。
 
-![](../assets/openshiftai_login_1.png)
-![](../assets/openshiftai_login_2.png)
+![](../../assets/openshiftai_login_1.png)
+![](../../assets/openshiftai_login_2.png)
 
 OpenShift AI のポータル画面が表示されたら OK です。
 
-![](../assets/openshiftai_toppage.png)
+![](../../assets/openshiftai_toppage.png)
 
 
 
