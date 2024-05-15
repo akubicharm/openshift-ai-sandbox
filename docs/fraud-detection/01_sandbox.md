@@ -14,15 +14,15 @@ nav_order: 1
 {: .highlight }
 Red Hat Developerのアカウントを持っていること。持っていない場合は、(https://developers.redhat.com/) でアカウントを作成してください。
 
-
+{:style="counter-reset:none"}
 1. (https://developers.redhat.com/developer-sandbox) にアクセスして「Start your sandbox for free」ボタンをクリックします。未ログインの場合にはログイン画面が表示されるのでログインします。
 ![](../../assets/rhd_start_sandbox.png)
 ![](../../assets/rhd_login.png)
 
-2. Sandboxの一覧から Red Hat OpenShift AI の「Launch」ボタンをクリックします。
+1. Sandboxの一覧から Red Hat OpenShift AI の「Launch」ボタンをクリックします。
 ![](../../assets/rhd_select_sandbox.png)
 
-3. OpenShift AIのログイン画面が表示されたら「Log in with OpenShift」ボタンをクリックし、次の画面で「Dev Sandbox」ボタンをクリックします。
+1. OpenShift AIのログイン画面が表示されたら「Log in with OpenShift」ボタンをクリックし、次の画面で「Dev Sandbox」ボタンをクリックします。
 ![](../../assets/openshiftai_login_1.png)
 ![](../../assets/openshiftai_login_2.png)
 

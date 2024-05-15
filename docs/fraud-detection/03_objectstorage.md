@@ -14,19 +14,16 @@ OpenShift AIダッシュボードの右上の■をクリックして、プル�
 ![](../../assets/ocp_open_console.png)
 
 ## Object Storageのデプロイ
-
+{:style="counter-reset:none"}
 1. OpenShiftコンソールの左上のプルダウンメニューで「開発者」を選んで開発者用のビューに変更します。
-
 ![](../../assets/ocp_select_viewmode.png)
 
 
-2. 左側のメニューで「＋追加」をクリックして表示されたトポロジー追加方法から「YAMLのインポート」を選択します。
-
+1. 左側のメニューで「＋追加」をクリックして表示されたトポロジー追加方法から「YAMLのインポート」を選択します。
 ![](../../assets/ocp_add_topology.png)
 
 
-3. 以下の内容をコピーペーストして「追加」ボタンをクリックします。
-
+1. 以下の内容をコピーペーストして「追加」ボタンをクリックします。
 ```
 ---
 apiVersion: v1
@@ -69,13 +66,10 @@ spec:
       serviceAccount: demo-setup
       serviceAccountName: demo-setup
 ```
-
 ![](../../assets/ocp_add_yaml.png)
 
 4. minioのデプロイを確認
-
 "Resources successfully created" というメッセージと以下のリソース名の一覧が表示されればOkです。
-
 * demo-setup
 * demo-setup-edit
 * create s3-storage
