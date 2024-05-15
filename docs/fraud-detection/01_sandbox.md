@@ -28,7 +28,3 @@ Red Hat Developerのアカウントを持っていること。持っていない
 
 OpenShift AI のポータル画面が表示されたら OK です。
 ![](../../assets/openshiftai_toppage.png)
-
-
-
-
