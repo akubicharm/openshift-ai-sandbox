@@ -17,7 +17,7 @@ Red Hat Developerのアカウントを持っていること。持っていない
 
 1. (https://developers.redhat.com/developer-sandbox) にアクセスして「Start your sandbox for free」ボタンをクリックします。未ログインの場合にはログイン画面が表示されるのでログインします。
 
-{: sm}
+
 ![](../../assets/rhd_start_sandbox.png)
 ![](../../assets/rhd_login.png)
 
