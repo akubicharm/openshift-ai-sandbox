@@ -44,3 +44,9 @@ nav_order: 5
 1. Data Connectionセクションで「Use existing data connection」を選択し、Data Connection のプルダウンメニューから「My Storage」を選択します。
 {: .d-block}
 ![](../../assets/oai_create_workbench_dataconnection.png)
+
+1. 画面下部の「Create workbench」ボタンをクリックします。
+
+1. ワークベンチのステータスがRunningになったら「Open」のリンクをクリックしてJupyter notebookを起動します。
+{: .d-block}
+![](../../assets/oai_create_workbench_open.png)
