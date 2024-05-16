@@ -25,6 +25,7 @@ nav_order: 5
 
 
 1. デプロイサイズを選択します。
+{: .d-block}
 ![](../../assets/oai_create_workbench_size.png)
 
 
