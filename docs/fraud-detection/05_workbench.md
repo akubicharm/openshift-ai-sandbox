@@ -17,10 +17,12 @@ nav_order: 5
 
 
 1. ワークベンチの名前を入力します。
+{: .d-block}
 ![](../../assets/oai_create_workbench_name.png)
 
 
 1. ノートブックイメージとバージョンを選択します。
+{: .d-block}
 ![](../../assets/oai_create_workbench_notebookimage.png)
 
 
@@ -30,8 +32,10 @@ nav_order: 5
 
 
 1. 「Create new persistent Storage」を選択し、Persistent Storage Sizeを5GBに設定します。
+{: .d-block}
 ![](../../assets/oai_create_workbench_storage.png)
 
 
 1. Data Connectionセクションで「Use existing data connection」を選択肢、Data Connection のプルダウンメニューから「My Storage」を選択します。
+{: .d-block}
 ![](../../assets/oai_create_workbench_dataconnection.png)
