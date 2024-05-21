@@ -86,7 +86,7 @@ minioにアクセスするためのユーザとパスワードはランダムに
 **My Storage** 、**Pipiline** の2つのBucketが作成されています。
 My Storageは作成したモデルの保存用、PipelineはData Science Pipelineのログなどの保存用です。
 
-## オプション
+## オプション : OpenShiftに作成されたリソースを確認
 
-### OpenShiftに作成されたリソースを確認
+
 

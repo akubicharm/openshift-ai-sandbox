@@ -48,5 +48,6 @@ nav_order: 5
 1. 画面下部の「Create workbench」ボタンをクリックします。
 
 1. ワークベンチのステータスがRunningになったら「Open」のリンクをクリックしてJupyter notebookを起動します。
+{: .note}初回の起動時はコンテナイメージをダウンロードするので少し時間がかかります。
 {: .d-block}
 ![](../../assets/oai_create_workbench_open.png)
