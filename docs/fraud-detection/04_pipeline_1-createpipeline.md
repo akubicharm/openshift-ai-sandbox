@@ -10,10 +10,12 @@ nav_order: 10
 sandbox環境はリソースが少ないので、省エネのためモデルサーバのインスタンス数を0にします。
 
 1. モデルサーバ一覧の右上の「：」をクリックして表示されるプルダウンメニューから「Edit model server」を選択します。 
+{: .d-block}
 ![](../../assets/oai_modelserver_stop_1.png)
 
 
 1. レプリカ数を0にして画面下部の「Update」ボタンをクリックします。
+{: .d-block}
 ![](../../assets/oai_modelserver_stop_1.png)
 
 
@@ -22,20 +24,25 @@ sandbox環境はリソースが少ないので、省エネのためモデルサ�
 1. Datascience Projectを選択します。
 
 1. ワークベンチのステータスのトグルボタンをクリックしてワークベンチを開始します。
+{: .d-block}
 ![](../../assets/oai_start_workbench.png)
 
 1. ワークベンチのステータスがRunningになったら「Open」のリンクをクリックしてノートブックを開きます。
+{: .d-block}
 ![](../../assets/oai_open_workbench.png)
 
 ## パイプラインの作成
 
 1. ノードブックの左側のメニューをクリックしてPipeline API Endpointを確認します
-![](../../assets/oai_notebook_verify_pipeline_endpoint.png)
+{: .d-block}
+![](../../assets/oai_notebook_verify_pipeline_endpoint.png){: width="400"}
 
 1. ノートブックのメニューでFile > New > Data Science Pipeline を選択して、データサイエンスパイプラインのエディタを開きます。
+{: .d-block}
 ![](../../assets/oai_notebook_create_newpipeline.png)
 
 1. パイプラインエディタに `1_experiment_train.ipynb` と `2_save_model.ipynb` をDrap and Drop して、コネクタを接続します。
+{: .d-block}
 ![](../../assets/oai_notebook_create_pipeline_1.gif)
 
 1. `1_experiment_train.ipynb` のノードのプロパティを編集します。
@@ -44,12 +51,15 @@ sandbox環境はリソースが少ないので、省エネのためモデルサ�
 
 * パイプラインエディタで `1_experiment_train.ipynb` のノードをクリックしてノードのプロパティ編集エリアを表示します。
 * File Dependenciesに `data/card_transdata.csv` と入力します。
+{: .d-block}
 ![](../../assets/oai_notebook_pipeline_edit_node1_1.png)
 
 * 下にスクロールして、Outputs編集エリアを表示し「Add」ボタンをクリックします。
+{: .d-block}
 ![](../../assets/oai_notebook_pipeline_edit_node1_2.png)
 
 * テキストエリアに `model/fraud/1/fraud.onnx` と入力します。
+{: .d-block}
 ![](../../assets/oai_notebook_pipeline_edit_node1_3.png
 
 
@@ -59,10 +69,12 @@ sandbox環境はリソースが少ないので、省エネのためモデルサ�
 * パイプラインエディタで `2_save-model.ipynb` のノードをクリックしてノードのプロパティ編集エリアを表示します。
 * Outputs編集エリアを表示し「Add」ボタンをクリックします。
 * テキストエリアに `model/fraud/1/fraud.onnx` を入力します。
+{: .d-block}
 ![](../../assets/oai_notebook_pipeline_edit_node1_3.png)
 
 * Additional Propertiesに設定されている環境変数を削除します。削除する環境変数は、`AWS_ACCESS_KEY_ID`、`AWS_SECRET_ACCESS_KEY`、`AWS_S3_ENDPOINT`、`AWS_DEFAULT_REGION`、`AWS_S3_BUCKET` です。
-![](../../assets/oai_notebook_pipeline_removeenv.png)
+{: .d-block}
+![](../../assets/oai_notebook_pipeline_removeenv.png){: width="400"}
 
 * Kubernetes Secrets編集エリアの「Add」ボタンをクリックしてkubernetesのSecretの値を参照できるようにします。
 
@@ -75,26 +87,32 @@ sandbox環境はリソースが少ないので、省エネのためモデルサ�
 |AWS_S3_ENDPOINT|aws-connection-my-storage|AWS_S3_ENDPOINT|
 |AWS_DEFAULT_REGION|aws-connection-my-storage|AWS_DEFAULT_REGION|
 |AWS_S3_BUCKET|aws-connection-my-storage|AWS_S3_BUCKET|
-
+{: .d-block}
 ![](../../assets/oai_notebook_pipeline_add_k8ssecrets_2.png)
 
 * 編集が終わったら、パイプライン編集画面上部の保存ボタンをクリックして保存します。
+{: .d-block}
 ![](../../assets/oai_notebook_pipeline_save.png)
+
 
 ##　パイプラインの実行
 
 1. パイプライン編集画面上部の「Run pipeline」ボタンをクリックしてパイプラインを実行します。
+{: .d-block}
 ![](../../assets/oai_notebook_pipeline_start_run.png)
 
 
 1. Run pipeline for Data Scienct Pipelineのダイアログが表示されたら、パイプライン名を入力して「OK」ボタンをクリックします.
+{: .d-block}
 ![](../../assets/oai_notebook_pipeline_start_run_2.png)
 
 
 1. 少し待つとパイプライン開始のメッセージが表示されるので「OK」ボタンをクリックします。
+{: .d-block}
 ![](../../assets/oai_notebook_pipeline_start_run_3.png)
 
 1. OpenShift AIのコンソールの左側のメニューで Data Science Pipeline > Runs をクリックして、パイプラインの実行状況を確認します。
+{: .d-block}
 ![](../../assets/oai_notebook_pipeline_start_run_4.png)
 
 

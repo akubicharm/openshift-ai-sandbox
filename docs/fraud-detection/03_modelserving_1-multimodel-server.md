@@ -14,12 +14,14 @@ Sandbox環境はリソースが少ないので、省エネのためにワーク�
 1. ワークベンチの一覧でStatusのトグルボタンをクリックしてワークベンチを停止します。
 {: .d-block}
 ![](../../assets/oai_stop_workbench.png)
-![](../../assets/oai_stop_workbench_2.png)
+{: .d-block}
+![](../../assets/oai_stop_workbench_2.png){: width="400"}
 
 
 ##　モデルサーバのデプロイ
 
 1.「Models」タブを表示し「Add model server」ボタンをクリックします。
+{: .d-block}
 ![](../../assets/oai_add_modelserver_1.png)
 
 
@@ -34,7 +36,7 @@ Model server name:Model Server
 Serving runtime:OpenVINO Model Server
 {: .d-block}
 ![](../../assets/oai_add_modelserver_runtime.png)
-{: .d-block}
+
 
 * モデルサーバのレプリカ数の設定
 Number of model server replicas to deploy: 1

@@ -14,7 +14,7 @@ nav_order: 6
 
 1. OpenShiftのログインダイアログが表示された場合は、「DevSandBox」ボタンをクリックしてログインします。
 {: .d-block}
-![](../../assets/oai_notebook_login.png)
+![](../../assets/oai_notebook_login.png){: width="400"}
 
 
 1. Notebookが開いたら、左上のGitのアイコンをクリックします。
@@ -27,11 +27,11 @@ nav_order: 6
 https://github.com/rh-aiservices-bu/fraud-detection.git
 ```
 {: .d-block}
-![](../../assets/oai_notebook_clone.png)
+![](../../assets/oai_notebook_clone.png){: width="400"}
 
 
 1. Cloneした fraud-detectionのディレクトリをクリックして、ソースコードの一覧を確認します。
 {: .d-block}
-![](../../assets/oai_notebook_verify_clone.png)
-![](../../assets/oai_notebook_list_dir.png)
-
+![](../../assets/oai_notebook_verify_clone.png){: width="400"}
+{: .d-block}
+![](../../assets/oai_notebook_list_dir.png){: width="400"}

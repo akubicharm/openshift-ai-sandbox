@@ -10,16 +10,18 @@ nav_order: 3
 ## OpenShift コンソールの起動
 
 OpenShift AIダッシュボードの右上の■をクリックして、プルダウンメニューから「OpenShift Console」を選びます。
-
-![](../../assets/ocp_open_console.png)
+{: .d-block}
+![](../../assets/ocp_open_console.png){: width="400"}
 
 ## Object Storageのデプロイ
 {:style="counter-reset:none"}
 1. OpenShiftコンソールの左上のプルダウンメニューで「開発者」を選んで開発者用のビューに変更します。
+{: .d-block}
 ![](../../assets/ocp_select_viewmode.png)
 
 
 1. 左側のメニューで「＋追加」をクリックして表示されたトポロジー追加方法から「YAMLのインポート」を選択します。
+{: .d-block}
 ![](../../assets/ocp_add_topology.png)
 
 
@@ -66,6 +68,7 @@ spec:
       serviceAccount: demo-setup
       serviceAccountName: demo-setup
 ```
+{: .d-block}
 ![](../../assets/ocp_add_yaml.png)
 
 1. minioのデプロイを確認
@@ -84,10 +87,8 @@ minioにアクセスするためのユーザとパスワードはランダムに
 
 
 1. デプロイされたminioのURLを開くボタンをクリックしてminioのコンソールにアクセスします。
-![](../../assets/ocp_open_minio_url.png)
+{: .d-block}
+![](../../assets/ocp_open_minio_url.png){: width="400"}
 
 **My Storage** 、**Pipiline** の2つのBucketが作成されています。
 My Storageは作成したモデルの保存用、PipelineはData Science Pipelineのログなどの保存用です。
-
-
-
