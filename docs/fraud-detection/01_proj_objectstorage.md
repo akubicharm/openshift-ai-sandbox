@@ -70,18 +70,17 @@ spec:
 * demo-setup
 * demo-setup-edit
 * create s3-storage
-
-
 {: .note }
 このYAMLでは、AWS S3互換のオブジェクトストレージ[minio](https://min.io/)をデプロイするJOBを作成して実行します。
 [`setup-s3-no-sa.yaml`](https://github.com/rh-aiservices-bu/fraud-detection/blob/main/setup/setup-s3-no-sa.yaml)は、minioをデプロイしこの後のワークショップで利用するためのBucketの作成を行います。
 minioにアクセスするためのユーザとパスワードはランダムに作成されて、Endpointの情報などと一緒に`minio-root-user`というSecretに保存されます。
-
 さらに、OpenShift AIのData Science projectのData Connectionに作成したBucketへの接続情報を登録します。
 
 
 1. デプロイされたminioのURLを開くボタンをクリックしてminioのコンソールにアクセスします。
 ![](../../assets/ocp_open_minio_url.png){: width="400" .d-block}
 
+1. Bucketが2つ作成されていることを確認します。
+![](../../assets/minio_list_bucket_initialized.png)
 **My Storage** 、**Pipiline** の2つのBucketが作成されています。
 My Storageは作成したモデルの保存用、PipelineはData Science Pipelineのログなどの保存用です。
