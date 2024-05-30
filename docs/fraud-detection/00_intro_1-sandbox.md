@@ -18,7 +18,7 @@ Red Hat Developerのアカウントを持っていること。持っていない
 ![](../../assets/rhd_start_sandbox.png){: width="500"}
 ![](../../assets/rhd_login.png){: width="400"}
 
-
+{:style="counter-reset:none"}
 1. Sandboxの一覧から Red Hat OpenShift AI の「Launch」ボタンをクリックします。
 ![](../../assets/rhd_select_sandbox.png)
 
