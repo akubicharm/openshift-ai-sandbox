@@ -37,6 +37,7 @@ curl -X POST -H "Content-Type: application/json" \
 -d '{"inputs": [{"name": "dense_input","shape": [1, 5],"datatype": "FP32","data": [0.3111400080477545, 1.9459399775518593, 1.0, 0.0, 0.0]} ]}' \
 https://fraud-my-user-name-dev.apps.sandbox-m4.g2pi.p1.openshiftapps.com/v2/models/fraud/infer
 ```
+
 VSCodeのREST Clientを利用する場合
 ```
 ###
@@ -55,5 +56,3 @@ Authorization: Bearer sha256~qskfh5_VDZtk5cllAUePAFJsqEFjebSiVjnUOXqE99k
   ] 
 }
 ```
-
-

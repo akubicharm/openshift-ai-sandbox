@@ -17,12 +17,13 @@ Sandbox環境はリソースが少ないので、省エネのためにワーク�
 
 
 ## モデルサーバのデプロイ
-{:style="counter-reset:none"}
+
 1.「Models」タブを表示し「Add model server」ボタンをクリックします。
 ![](../../assets/oai_add_modelserver_1.png){: .d-block}
 
 {: .note }右上の緑の四角で囲んだところに「Multi-model serving enabled」と表示されているので、この環境ではMulti-modelサービングだけが利用可能です。
 
+{:style="counter-reset:none"}
 1. Add model serverダイアログでパラメータを入力して、画面下部の「Add」ボタンをクリックします。
 * モデルサーバ名とランタイムの設定
 <dl>
@@ -52,7 +53,6 @@ Sandbox環境はリソースが少ないので、省エネのためにワーク�
 
 ## モデルのデプロイ
 
-{:style="counter-reset:none"}
 1. デプロイしたモデルサーバ名の行にある「Deploy model」ボタンをクリックします。
 ![](../../assets/oai_model_deploy_model_1.png){: .d-block}
 
@@ -77,6 +77,6 @@ Sandbox環境はリソースが少ないので、省エネのためにワーク�
 * 全部入力したら「Deploy」ボタンをクリック
 ![](../../assets/oai_model_deploy_model_button.png){: .d-block}
 
-
+{:style="counter-reset:none"}
 1. モデルデプロイのステータスを確認
 ![](../../assets/oai_model_deploy_model_verify.png){: .d-block}
