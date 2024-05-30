@@ -70,6 +70,7 @@ spec:
 * demo-setup
 * demo-setup-edit
 * create s3-storage
+
 {: .note }
 このYAMLでは、AWS S3互換のオブジェクトストレージ[minio](https://min.io/)をデプロイするJOBを作成して実行します。
 [`setup-s3-no-sa.yaml`](https://github.com/rh-aiservices-bu/fraud-detection/blob/main/setup/setup-s3-no-sa.yaml)は、minioをデプロイしこの後のワークショップで利用するためのBucketの作成を行います。
