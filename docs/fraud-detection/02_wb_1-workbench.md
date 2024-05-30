@@ -25,13 +25,11 @@ nav_order: 5
 Sandbox環境はリソースが少ないので、Small以外だとワークベンチがデプロイできません。
 ![](../../assets/oai_create_workbench_size.png){: width="500" .d-block}
 1. 「Create new persistent Storage」を選択し、Persistent Storage Sizeを5GBに設定します。
-{: .warning}
-Sandbox環境はリソースが少ないので、ストレージサイズはデフォルトの20GBだとワークベンチがデプロイできません。
+Sandbox環境はリソースが少ないので、ストレージサイズはデフォルトの20GBだとワークベンチがデプロイできません。{: .warning .d-block}
 ![](../../assets/oai_create_workbench_storage.png){: width="500" .d-block}
 1. Data Connectionセクションで「Use existing data connection」を選択し、Data Connection のプルダウンメニューから「My Storage」を選択します。
 ![](../../assets/oai_create_workbench_dataconnection.png){: width="500" .d-block}
 1. 画面下部の「Create workbench」ボタンをクリックします。
 1. ワークベンチのステータスがRunningになったら「Open」のリンクをクリックしてJupyter notebookを起動します。
-{: .note}
-初回の起動時はコンテナイメージをダウンロードするので少し時間がかかります。
+初回の起動時はコンテナイメージをダウンロードするので少し時間がかかります。{: .note .d-block
 ![](../../assets/oai_create_workbench_open.png){: .d-block}

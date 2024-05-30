@@ -10,10 +10,10 @@ nav_order: 1
 ## OpenShift AI Sandboxの作成
 
 {: .highlight }
-Red Hat Developerのアカウントを持っていること。持っていない場合は、[Red Hat Developerのサイト](https://developers.redhat.com//)でアカウントを作成してください。
+Red Hat Developerのアカウントを持っていること。持っていない場合は、[Red Hat Developerのサイト](https://developers.redhat.com/)でアカウントを作成してください。
 
 
-1. (https://developers.redhat.com/developer-sandbox) にアクセスして「Start your sandbox for free」ボタンをクリックします。未ログインの場合にはログイン画面が表示されるのでログインします。
+1. [Developer Sandboxのサイト](https://developers.redhat.com/developer-sandbox) にアクセスして「Start your sandbox for free」ボタンをクリックします。未ログインの場合にはログイン画面が表示されるのでログインします。
 ![](../../assets/rhd_start_sandbox.png){: width="500" .d-block}
 ![](../../assets/rhd_login.png){: width="400" .d-block}
 
