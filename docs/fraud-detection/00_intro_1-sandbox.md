@@ -14,9 +14,8 @@ Red Hat Developerのアカウントを持っていること。持っていない
 
 
 1. (https://developers.redhat.com/developer-sandbox) にアクセスして「Start your sandbox for free」ボタンをクリックします。未ログインの場合にはログイン画面が表示されるのでログインします。
-{: .d-block .pl-1}
-![](../../assets/rhd_start_sandbox.png){: width="500"}
-![](../../assets/rhd_login.png){: width="400"}
+![](../../assets/rhd_start_sandbox.png){: width="500" .d-block}
+![](../../assets/rhd_login.png){: width="400" .d-block}
 
 1. Sandboxの一覧から Red Hat OpenShift AI の「Launch」ボタンをクリックします。
 {: .d-block}
