@@ -77,7 +77,7 @@ spec:
 minioにアクセスするためのユーザとパスワードはランダムに作成されて、Endpointの情報などと一緒に`minio-root-user`というSecretに保存されます。
 さらに、OpenShift AIのData Science projectのData Connectionに作成したBucketへの接続情報を登録します。
 
-
+{:style="counter-reset:none"}
 1. デプロイされたminioのURLを開くボタンをクリックしてminioのコンソールにアクセスします。
 ![](../../assets/ocp_open_minio_url.png){: width="400" .d-block}
 
