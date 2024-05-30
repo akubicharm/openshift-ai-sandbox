@@ -21,7 +21,6 @@ Red Hat Developerのアカウントを持っていること。持っていない
 ![](../../assets/rhd_select_sandbox.png){: .d-block}
 
 1. OpenShift AIのログイン画面が表示されたら「Log in with OpenShift」ボタンをクリックし、次の画面で「Dev Sandbox」ボタンをクリックします。
-
 ![](../../assets/openshiftai_login_1.png){: width="400" .d-block}
 ![](../../assets/openshiftai_login_2.png){: width="400" .d-block}
 

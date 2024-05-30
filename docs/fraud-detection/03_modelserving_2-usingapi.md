@@ -16,16 +16,17 @@ API呼び出し時のトークン認証を有効にしているので、トー�
 1. OpenShiftコンソールを開きます。
 
 1. OpenShiftコンソールの右上の「ログインコマンドのコピー」を選択してトークンをコピーします
-![](../../assets/ocp_copy_token.png)
+![](../../assets/ocp_copy_token.png){: .d-block}
 
 
 ## モデルのAPI呼び出し
 
 1. OpenShift AIのコンソールでModel Servingタブを表示して、Model ServerのURLをコピーします。
-![](../../assets/oai_copy_model_api_url.png)
-
+![](../../assets/oai_copy_model_api_url.png){: .d-block}
 URLはこういう形式になっています。
-`https://fraud-[RH_developerのアカウント名]-dev.apps.sandbox-m4.g2pi.p1.openshiftapps.com/v2/models/fraud/infer`
+```
+https://fraud-[RH_developerのアカウント名]-dev.apps.sandbox-m4.g2pi.p1.openshiftapps.com/v2/models/fraud/infer
+```
 
 
 1. curlコマンドでAPIを呼び出します。
@@ -36,8 +37,6 @@ curl -X POST -H "Content-Type: application/json" \
 -d '{"inputs": [{"name": "dense_input","shape": [1, 5],"datatype": "FP32","data": [0.3111400080477545, 1.9459399775518593, 1.0, 0.0, 0.0]} ]}' \
 https://fraud-my-user-name-dev.apps.sandbox-m4.g2pi.p1.openshiftapps.com/v2/models/fraud/infer
 ```
-
-
 VSCodeのREST Clientを利用する場合
 ```
 ###

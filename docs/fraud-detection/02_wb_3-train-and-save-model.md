@@ -12,22 +12,18 @@ nav_order: 7
 
 {:style="counter-reset:none"}
 1. 左側のファイルのリストから `1_experiment_train.ipynb` を選択して内容を表示し、画面上部の「▶️」ボタンをクリックしてJupyter notebookを実行します。
-{: .d-block}
-![](../../assets/oai_notebook_run_1.png)
+![](../../assets/oai_notebook_run_1.png){: .d-block}
 
 
 ## モデルの保存
 
 {:style="counter-reset:none"}
 1. Terminalを開いてモデルを保存するオブジェクトストレージへの接続情報が設定されているかを確認します。
-{: .d-block}
-![](../../assets/oai_notebook_open_terminal.png)
+![](../../assets/oai_notebook_open_terminal.png){: .d-block}
 
 
 1. Terminalで `env |grep AWS` コマンドを実行して環境変数を確認します。
-{: .d-block}
-![](../../assets/oai_notebook_verify_envval.png)
-{: .d-block}
+![](../../assets/oai_notebook_verify_envval.png){: .d-block}
 以下の環境変数が設定されていることを確認します。
 {: .note}
 ワークベンチのData Connectionで設定したオブジェクトストレージへの接続情報が環境変数として設定されています。OpenShiftでのリソースは `aws-connection-mystorage`というシークレットです。
@@ -40,31 +36,24 @@ nav_order: 7
 
 
 1. 左側のファイルのリストから `2_save_model.ipynb` を選択して内容を表示し、画面上部の「▶️」ボタンをクリックしてJupyter notebookを実行します。
-{: .d-block}
-![](../../assets/oai_notebook_run2.png)
+![](../../assets/oai_notebook_run2.png){: .d-block}
 実行中は右上の○が●になり、
-{: .d-block}
-![](../../assets/oai_notebook_run2_status.png){: width="400"}
+![](../../assets/oai_notebook_run2_status.png){: width="400" .d-block}
 
 ## オプション: minioのポータル画面で保存されたモデルの確認
 {:style="counter-reset:none"}
 1. OpenShift AIの右上の■をクリックしてOpenShiftのコンソールを開きます。
-{: .d-block}
-![](../../assets/ocp_open_console.png){: width="400"}
+![](../../assets/ocp_open_console.png){: width="400" .d-block}
 
 
 1. トポロジー表示でminioのPodの右上のアイコンをクリックしてminioのポータルを開きます。
-{: .d-block}
-![](../../assets/ocp_open_minio_url.png){: width="400"}
+![](../../assets/ocp_open_minio_url.png){: width="400" .d-block}
 
 1. モデル保存の手順2で確認したAWS_ACCESS_KEY_IDとAWS_SECRET_ACCESS_KEYを使ってコンソールにログインします。
-{: .d-block}
-![](../../assets/minio_login.png){: width="400"}
+![](../../assets/minio_login.png){: width="400" .d-block}
 
 1. bucket一覧で「My Storage」を選択します
-{: .d-block}
-![](../../assets/minio_list_bucket.png)
+![](../../assets/minio_list_bucket.png){: .d-block}
 
 1. models → fraud → 1 の順番にフォルダをクリックしてモデルファイルを表示します。
-{: .d-block}
-![](../../assets/minio_show_model.png)
+![](../../assets/minio_show_model.png){: .d-block}
