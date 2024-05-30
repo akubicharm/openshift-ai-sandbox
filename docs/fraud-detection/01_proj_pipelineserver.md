@@ -9,7 +9,6 @@ nav_order: 4
 
 Pipeline Serverを構成しデータサイエンスパイプラインのログなどを保存するためのオブジェクトストレージへの接続情報を設定します。
 
-
 {:style="counter-reset:none"}
 1. OpenShift AIのダッシュボードでData Science projectを選択します。
 ![](../../assets/oai_pls_select_dsp.png){: .d-block}
