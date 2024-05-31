@@ -21,3 +21,7 @@ OpenShift AIを構成するコンポーネントは以下のとおりです。
 
 ## 参考になるサイトなど
 * https://docs.redhat.com/ja/documentation/red_hat_openshift_ai_self-managed/2.9
+
+
+[Prev](./index.md){: .float-right}
+[Next](./00_intro_1-sandbox.md){: .float-right}
