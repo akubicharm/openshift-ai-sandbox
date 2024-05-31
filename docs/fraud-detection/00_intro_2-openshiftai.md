@@ -1,7 +1,7 @@
 ---
 layout: default
 title: ワークショップの概要
-nav_order: 2
+nav_order: 1
 ---
 
 # 全体像
@@ -17,3 +17,7 @@ OpenShift AIを構成するコンポーネントは以下のとおりです。
 * データコネクションーモデルを保持するオブジェクトストレージへの接続情報
 * パイプラインサーバーMLOpsのパイプラインを実行するサーバ
 * Model Servingーモデルを公開するサーバ。APIで外部からアクセス可能。
+
+
+## 参考になるサイトなど
+* https://docs.redhat.com/ja/documentation/red_hat_openshift_ai_self-managed/2.9
