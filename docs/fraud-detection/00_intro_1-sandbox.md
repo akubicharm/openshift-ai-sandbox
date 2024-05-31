@@ -26,3 +26,13 @@ Red Hat Developerのアカウントを持っていること。持っていない
 
 1. OpenShift AI のポータル画面が表示されたら OK です。
 ![](../../assets/openshiftai_toppage.png){: .d-block}
+
+
+
+<a href="{{ page.previous.url }}">
+  <div>Previous Post</div>
+</a>
+
+<a href="{{ page.next.url }}">
+  <div>Newer Post</div>
+</a>
