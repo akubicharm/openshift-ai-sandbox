@@ -6,6 +6,10 @@ nav_order: 6
 
 # Jupyter notebookの利用
 
+Notebookを起動して、サンプルのアプリケーションをgit cloneしてモデルを開発する準備をします。
+
+![](../../assets/overview_notebook.png)
+
 1. Jupyter notebookにブラウザで開いていない場合は、ワークベンチを選択し「Open」のリンクをクリックします。
 ![](../../assets/oai_create_workbench_open.png){: .d-block}
 

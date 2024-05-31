@@ -9,6 +9,9 @@ nav_order: 5
 
 ワークベンチは、モデルの開発と検証をする環境です。ワークベンチにはJupyterとモデル開発に必要なツールおよびライブラリで最適化されたデフォルトのノートブックイメージのコレクション、TensofFlowおよびPyTorchフレームワークが含まれます。
 
+
+![](../../assets/overview_workbench.png)
+
 ## ワークベンチの作成
 
 1. Data Science Projectを選択します。
@@ -31,6 +34,7 @@ nav_order: 5
 </dl>
 ![](../../assets/oai_create_workbench_notebookimage.png){: width="500" .d-block}
 
+{:style="counter-reset:none"}
 1. デプロイサイズでSmallを選択します。
 <dl>
   <dt>Container size</dt><dd>Small</dd>
@@ -45,7 +49,7 @@ Sandbox環境はリソースが少ないので、Small以外だとワークベ�
 1. 「Create new persistent Storage」を選択し、Persistent Storage Sizeを5GBに設定します。
 ![](../../assets/oai_create_workbench_storage.png){: width="500" .d-block}
 
-{: warning}
+{: .warning}
 Sandbox環境はリソースが少ないので、ストレージサイズはデフォルトの20GBだとワークベンチがデプロイできません。
 
 {:style="counter-reset:none"}

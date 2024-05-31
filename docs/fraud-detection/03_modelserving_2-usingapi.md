@@ -8,6 +8,8 @@ nav_order: 9
 
 OpenShiftのRouteで外部向けに公開されたAPIを呼び出します。
 
+![](../../assets/overview_modelapi.png)
+
 
 ## Bearer トークンの取得
 

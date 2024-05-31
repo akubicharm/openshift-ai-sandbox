@@ -6,6 +6,11 @@ nav_order: 10
 
 # パイプラインの利用
 
+モデルの学習と保存をするためのパイプラインを作成します。
+パイプラインは、ワンショットでの実行とスケジュールでの実行が可能ですが、ここではワンショットでの実行をします。
+
+![](../../assets/overview_pipelinerun.png)
+
 ## モデルサーバの停止
 
 sandbox環境はリソースが少ないので、省エネのためモデルサーバのインスタンス数を0にします。
@@ -74,7 +79,7 @@ sandbox環境はリソースが少ないので、省エネのためモデルサ�
 ![](../../assets/oai_notebook_pipeline_save.png){: .d-block}
 
 
-##　パイプラインの実行
+## パイプラインの実行
 
 1. パイプライン編集画面上部の「Run pipeline」ボタンをクリックしてパイプラインを実行します。
 ![](../../assets/oai_notebook_pipeline_start_run.png){: .d-block}
@@ -86,5 +91,6 @@ sandbox環境はリソースが少ないので、省エネのためモデルサ�
 ![](../../assets/oai_notebook_pipeline_start_run_3.png){: .d-block}
 
 1. OpenShift AIのコンソールの左側のメニューで Data Science Pipeline > Runs をクリックして、パイプラインの実行状況を確認します。
-
 ![](../../assets/oai_notebook_pipeline_start_run_4.png){: .d-block}
+
+1. Minioのコンソールからモデルが更新されていることを確認します。

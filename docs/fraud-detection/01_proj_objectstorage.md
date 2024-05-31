@@ -6,6 +6,10 @@ nav_order: 3
 
 # Object Storageの準備
 
+ここではMinioというOSSのオブジェクトストレージをOpenShiftにデプロイし、OpenShift AIのデータクネクションに接続情報を登録します。
+
+![](../../assets/overview_objectstorage.png)
+
 
 ## OpenShift コンソールの起動
 

@@ -6,6 +6,11 @@ nav_order: 8
 
 # マルチモデルサーバのデプロイ
 
+モデルを公開するためのモデルサーバを準備し、そこにモデルをデプロイしてモデルをAPIで呼び出せるようにします。
+ここでは外部からモデルサーバをAPIで利用できるようにするため、OpenShiftのRouteを作成します。
+
+![](../../assets/overview_modelserver.png)
+
 ## ワークベンチの停止
 
 Sandbox環境はリソースが少ないので、省エネのためにワークベンチを停止します。
@@ -21,7 +26,8 @@ Sandbox環境はリソースが少ないので、省エネのためにワーク�
 1.「Models」タブを表示し「Add model server」ボタンをクリックします。
 ![](../../assets/oai_add_modelserver_1.png){: .d-block}
 
-{: .note }右上の緑の四角で囲んだところに「Multi-model serving enabled」と表示されているので、この環境ではMulti-modelサービングだけが利用可能です。
+{: .note}
+右上の緑の四角で囲んだところに「Multi-model serving enabled」と表示されているので、この環境ではMulti-modelサービングだけが利用可能です。
 
 {:style="counter-reset:none"}
 1. Add model serverダイアログでパラメータを入力して、画面下部の「Add」ボタンをクリックします。
@@ -31,10 +37,7 @@ Sandbox環境はリソースが少ないので、省エネのためにワーク�
 <dt>Serving runtime</dt><dd>OpenVINO Model Server</dd>
 </dl>
 ![](../../assets/oai_add_modelserver_runtime.png){: .d-block}
-* モデルサーバのレプリカ数の設定
-<dl>
-<dt>Number of model server replicas to deploy</dt><dd>1</dd>
-</dl>
+* モデルサーバのレプリカ数を 1 に設定します。
 ![](../../assets/oai_add_modelserver_replicas.png){: .d-block}
 * モデルサーバのサイズとアクセラレータの設定。
 <dl>
