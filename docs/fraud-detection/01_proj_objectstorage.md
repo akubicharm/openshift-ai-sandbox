@@ -89,3 +89,7 @@ minioにアクセスするためのユーザとパスワードはランダムに
 ![](../../assets/minio_list_bucket_initialized.png)
 **My Storage** 、**Pipiline** の2つのBucketが作成されています。
 My Storageは作成したモデルの保存用、PipelineはData Science Pipelineのログなどの保存用です。
+
+
+[Prev](./01_proj_objectstorage.html){: .float-left}
+[Next](./01_proj_pipelineserver.html){: .float-right}

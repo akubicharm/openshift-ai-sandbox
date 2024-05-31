@@ -28,3 +28,7 @@ https://github.com/rh-aiservices-bu/fraud-detection.git
 1. Cloneした fraud-detectionのディレクトリをクリックして、ソースコードの一覧を確認します。
 ![](../../assets/oai_notebook_verify_clone.png){: width="400" .d-block}
 ![](../../assets/oai_notebook_list_dir.png){: width="400" .d-block}
+
+
+[Prev](./02_wb_1-workbench.html){: .float-left}
+[Next](./02_wb_3-train-and-save-model.html){: .float-right}

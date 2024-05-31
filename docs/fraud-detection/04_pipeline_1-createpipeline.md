@@ -94,3 +94,9 @@ sandbox環境はリソースが少ないので、省エネのためモデルサ�
 ![](../../assets/oai_notebook_pipeline_start_run_4.png){: .d-block}
 
 1. Minioのコンソールからモデルが更新されていることを確認します。
+
+
+これでワークショップは終了です！Enjoy OpenShift AI Sandbox
+
+
+[Prev](./03_modelserving_2-usingapi.html){: .float-left}

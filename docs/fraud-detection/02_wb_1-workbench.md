@@ -63,3 +63,6 @@ Sandbox環境はリソースが少ないので、ストレージサイズはデ�
 
 {: note}
 初回の起動時はコンテナイメージをダウンロードするので少し時間がかかります。
+
+[Prev](./01_proj_pipelineserver.html){: .float-left}
+[Next](./02_wb_2-jupyter.html){: .float-right}

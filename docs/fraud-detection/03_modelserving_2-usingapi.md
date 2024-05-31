@@ -58,3 +58,7 @@ Authorization: Bearer sha256~qskfh5_VDZtk5cllAUePAFJsqEFjebSiVjnUOXqE99k
   ] 
 }
 ```
+
+
+[Prev](./03_modelserving_1-multimodel-server.html){: .float-left}
+[Next](./04_pipeline_1-createpipeline.html){: .float-right}

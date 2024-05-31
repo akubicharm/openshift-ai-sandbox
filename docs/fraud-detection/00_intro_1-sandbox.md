@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Sandbox
-nav_order: 1
+nav_order: 2
 ---
 
 # OpenShift AI Sandbox
@@ -29,10 +29,5 @@ Red Hat Developerのアカウントを持っていること。持っていない
 
 
 
-<a href="{{ page.previous.url }}">
-  <div>Previous Post</div>
-</a>
-
-<a href="{{ page.next.url }}">
-  <div>Newer Post</div>
-</a>
+[Prev](./index.html){: .float-left}
+[Next](./01_proj_objectstorage.html){: .float-right}

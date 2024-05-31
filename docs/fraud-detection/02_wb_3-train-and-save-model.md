@@ -58,3 +58,7 @@ nav_order: 7
 
 1. models → fraud → 1 の順番にフォルダをクリックしてモデルファイルを表示します。
 ![](../../assets/minio_show_model.png){: .d-block}
+
+
+[Prev](./02_wb_1-jupyter.html){: .float-left}
+[Next](./02_wb_3-train-and-save-model.html){: .float-right}

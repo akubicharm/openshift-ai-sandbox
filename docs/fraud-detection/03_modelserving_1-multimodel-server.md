@@ -83,3 +83,7 @@ Sandbox環境はリソースが少ないので、省エネのためにワーク�
 {:style="counter-reset:none"}
 1. モデルデプロイのステータスを確認
 ![](../../assets/oai_model_deploy_model_verify.png){: .d-block}
+
+
+[Prev](./02_wb_3-train-and-save-model.html){: .float-left}
+[Next](./03_modelserving_2-usingapi.html){: .float-right}

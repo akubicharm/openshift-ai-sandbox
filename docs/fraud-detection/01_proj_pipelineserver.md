@@ -28,3 +28,7 @@ Pipeline Serverを構成しデータサイエンスパイプラインのログ�
 1. 右上の「:」をクリックし、プルダウンメニューから「View pipeline server configuration」を選択してサーバの設定ダイアログ表示し内容を確認します。
 ![](../../assets/oai_pls_view_configure.png){: .d-block}
 ![](../../assets/oai_pls_verify_configure.png){: width="400"  .d-block}
+
+
+[Prev](./01_proj_pipelineserver.html){: .float-left}
+[Next](./02_wb_1-workbench.html){: .float-right}
