@@ -11,7 +11,7 @@ nav_order: 1
 ![](../../assets/overview.png){: .d-block}
 
 
-OpenShift AIを構成するコンポーネントは以下のとおりです。
+このワークショップで利用するOpenShift AIのコンポーネントは以下のとおりです。
 
 * ワークベンチーJupyterNotebookなどを活用したモデルの開発環境
 * データコネクションーモデルを保持するオブジェクトストレージへの接続情報
