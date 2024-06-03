@@ -30,5 +30,5 @@ Pipeline Serverを構成しデータサイエンスパイプラインのログ�
 ![](../../assets/oai_pls_verify_configure.png){: width="400"  .d-block}
 
 
-[Prev](./01_proj_pipelineserver.html){: .float-left}
+[Prev](./01_proj_objectstorage.html){: .float-left}
 [Next](./02_wb_1-workbench.html){: .float-right}

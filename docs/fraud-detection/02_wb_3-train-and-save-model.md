@@ -60,5 +60,5 @@ nav_order: 7
 ![](../../assets/minio_show_model.png){: .d-block}
 
 
-[Prev](./02_wb_1-jupyter.html){: .float-left}
-[Next](./02_wb_3-train-and-save-model.html){: .float-right}
+[Prev](./02_wb_2-jupyter.html){: .float-left}
+[Next](./03_modelserving_1-multimodel-server.html){: .float-right}
