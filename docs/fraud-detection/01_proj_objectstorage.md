@@ -42,7 +42,7 @@ roleRef:
   name: edit
 subjects:
   - kind: ServiceAccount
-&nbsp;&nbsp;name: demo-setup
+    name: demo-setup
 ---
 apiVersion: batch/v1
 kind: Job
