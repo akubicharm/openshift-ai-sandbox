@@ -25,7 +25,7 @@ nav_order: 3
 ![](../../assets/ocp_add_topology.png){: .d-block}
 
 1. 以下の内容をコピーペーストして「追加」ボタンをクリックします。
-<div class="language-yaml"><pre><code>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
 ---
 apiVersion: v1
 kind: ServiceAccount
@@ -66,7 +66,7 @@ spec:
       restartPolicy: Never
       serviceAccount: demo-setup
       serviceAccountName: demo-setup
-</code></pre></div>
+</code></pre></div></div>
 ![](../../assets/ocp_add_yaml.png){: .d-block}
 
 1. minioのデプロイを確認
