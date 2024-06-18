@@ -24,3 +24,7 @@ callouts:
   warning:
     title: Warning
     color: red
+
+compress_html:
+  ignore:
+    envs: all
