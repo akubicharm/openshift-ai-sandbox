@@ -31,7 +31,7 @@ https://fraud-[RH_developerのアカウント名]-dev.apps.sandbox-m4.g2pi.p1.op
 ```
 
 
-1. curlコマンドでAPIを呼び出します。
+1. ローカルのPCでcurlコマンドでAPIを呼び出します。
 Model ServerのURL、Bearerトークンは各自の環境に合わせて編集してください。
 ```
 curl -X POST -H "Content-Type: application/json" \
