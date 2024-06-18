@@ -25,7 +25,7 @@ nav_order: 3
 ![](../../assets/ocp_add_topology.png){: .d-block}
 
 1. 以下の内容をコピーペーストして「追加」ボタンをクリックします。
-<div class="language-yaml><pre><code>
+<div class="language-yaml"><pre><code>
 ---
 apiVersion: v1
 kind: ServiceAccount
