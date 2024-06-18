@@ -66,7 +66,7 @@ spec:
       restartPolicy: Never
       serviceAccount: demo-setup
       serviceAccountName: demo-setup
-~~~
+~~~{: language-yaml}
 ![](../../assets/ocp_add_yaml.png){: .d-block}
 
 1. minioのデプロイを確認
