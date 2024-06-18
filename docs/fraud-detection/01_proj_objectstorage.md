@@ -83,6 +83,12 @@ minioにアクセスするためのユーザとパスワードはランダムに
 
 {:style="counter-reset:none"}
 1. デプロイされたminioのURLを開くボタンをクリックしてminioのコンソールにアクセスします。
+<dl>
+  <dt>Username</dt>
+  <dd>minio</dd>
+  <dt>Password</dt>
+  <dd>minio123</dd>
+</dl>
 ![](../../assets/ocp_open_minio_url.png){: width="400" .d-block}
 
 1. Bucketが2つ作成されていることを確認します。
