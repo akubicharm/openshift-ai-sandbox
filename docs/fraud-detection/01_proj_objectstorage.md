@@ -18,7 +18,7 @@ nav_order: 3
 
 ## Object Storageのデプロイ
 {:style="counter-reset:none"}
-1. OpenShiftコンソールの左上のプルダウンメニューで「開発者」を選んで開発者用のビューに変更します。
+1. OpenShiftコンソールの左上のプルダウンメニューで「開発者」を選んで開発者用のビューにて、プロジェクトの一覧から「-dev」で終わる（openshift-virtualization-os-imageではない方）のプロジェクトを選択します。
 ![](../../assets/ocp_select_viewmode.png){: .d-block}
 
 1. 左側のメニューで「＋追加」をクリックして表示されたトポロジー追加方法から「YAMLのインポート」を選択します。
@@ -91,5 +91,5 @@ minioにアクセスするためのユーザとパスワードはランダムに
 My Storageは作成したモデルの保存用、PipelineはData Science Pipelineのログなどの保存用です。
 
 
-[Prev](./01_proj_objectstorage.html){: .float-left}
+[Prev](./01_intro_1-sandbox.html){: .float-left}
 [Next](./01_proj_pipelineserver.html){: .float-right}
